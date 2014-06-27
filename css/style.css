@@ -1,0 +1,39 @@
+
+body {
+	background-color: beige;
+}
+
+.container {
+	width: 500px;
+	margin:0 auto;
+}
+
+.table-border {
+	padding: 8px;
+	background-color: brown;
+	box-shadow: 4px 8px 6px -6px black;
+}
+.table {
+	padding: 10px;
+	background-color: green;
+	box-shadow: inset 4px 8px 6px -6px black;
+	
+	height: 360px;
+	position: relative;
+}
+
+.placeholder {
+	display: inline-block;
+	
+	width: 64px;
+	height: 96px;
+	
+	border: 2px solid darkgreen;
+	border-radius: 6px;
+}
+
+.play-area {
+	width: 300px;
+	margin:0 auto;
+	text-align: center;
+}
